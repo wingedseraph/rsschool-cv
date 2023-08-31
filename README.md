@@ -1,1 +1,1 @@
-https://wingedseraph.github.io/rsschool-cv/
+https://wingedseraph.github.io/rsschool-cv/cv
