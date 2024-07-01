@@ -1,10 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>My First HTML Page</title>
+    <title>Nikolai's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
   </head>
-
   <body>
-    <h1>Welcome to My Website!</h1>
+    <div class="flex-container">
+      <h1>Nikolai</h1>
+      <div class="divider"></div>
+      <h2>Contacts</h2>
+      <div class="divider"></div>
+      <p>Location: Saint-Petersburg, Russia</p>
+      <p>Phone: +7 (351) 254-10-11</p>
+      <p>
+        Email:
+        <a href="mailto:r89647@gmail.com" target="_blank">r89647@gmail.com</a>
+      </p>
+      <p>
+        GitHub:
+        <a href="https://github.com/wingedseraph" target="_blank"
+          >wingedseraph</a
+        >
+      </p>
+
+      <h2>About me</h2>
+      <div class="divider"></div>
+
+      <p>
+        I went through a very strange path after school. I wanted to enter the
+        film industry, but life took a turn, and now I find myself in applied
+        computer science at the university. I am passionate about developing my skills in this field.
+      </p>
+      <h2>Skills</h2>
+      <div class="divider"></div>
+
+      <ul>
+        <li>HTML</li>
+        <li>CSS (basic knowledge)</li>
+        <li>JavaScript (basic knowledge)</li>
+        <li>Version control: Git (remote service GitHub)</li>
+        <li>C++ (basic knowledge), Python (basic knowledge)</li>
+        <li>Linux, MacOS, Windows OS</li>
+        <li>Editors: Neovim, VSCode</li>
+      </ul>
+
+      <h2>Code Example</h2>
+      <div class="divider"></div>
+
+      <div class="code-container">
+        <pre><code class="language-javascript">
+// Use single quotes for string literals
+const greeting = "Hello, world";
+
+// Use camel case for variable and function names
+function sayHello(name) {
+  console.log(greeting + " " + name);
+}
+
+// Use const or let for variable declarations instead of var
+const names = ["Alice", "Bob", "Charlie"];
+
+// Use template literals for string interpolation
+const num1 = 10;
+const num2 = 5;
+console.log(`The sum of ${num1} and ${num2} is ${num1 + num2}`);
+    </code></pre>
+      </div>
+      <h2>Experience</h2>
+      <div class="divider"></div>
+
+      <ul>
+        <li>Small training projects at university in C++ and Python</li>
+      </ul>
+      <h2>Education</h2>
+      <div class="divider"></div>
+
+      <ul>
+        <li>Currently pursuing a degree in Applied Computer Science</li>
+      </ul>
+      <h2>English</h2>
+      <div class="divider"></div>
+
+      <ul>
+        <li>B1, looking to improve my language skills</li>
+      </ul>
+    </div>
   </body>
 </html>
