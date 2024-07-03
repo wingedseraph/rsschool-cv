@@ -1,90 +1,118 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <title>Nikolai's Portfolio</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
+  <header>
+    <nav>
+      <ul class="header-container">
+        <li><a href="#Contacts">Contacts</a></li>
+        <li><a href="#About-me">About me</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Code-Examples">Code Example</a></li>
+        <li><a href="#Courses">Courses</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#Languages">Languages</a></li>
+      </ul>
+    </nav>
+  </header>
   <body>
-    <div class="flex-container">
-      <h1>Nikolai</h1>
-      <div class="divider"></div>
-      <h2>Contacts</h2>
-      <div class="divider"></div>
-      <p>Location: Saint-Petersburg, Russia</p>
-      <p>Phone: +7 (351) 254-10-11</p>
-      <p>
-        Email:
-        <a href="mailto:r89647@gmail.com" target="_blank">r89647@gmail.com</a>
-      </p>
-      <p>
-        GitHub:
-        <a href="https://github.com/wingedseraph" target="_blank"
-          >wingedseraph</a
-        >
-      </p>
+    <main>
+      <div class="flex-container">
+        <div class="avatar">
+          <h1 class="name">Nikolai</h1>
+          <img class="image-avatar" src="images/avatar.jpg" alt="avatar visualization" />
+        </div>
+        <div class="divider"></div>
+        <h2 id="Contacts">Contacts</h2>
+        <div class="divider"></div>
+        <p>Location: Saint-Petersburg, Russia</p>
+        <p>Phone: +7 (351) 254-10-11</p>
+        <p>
+          Email:
+          <a href="mailto:r89647@gmail.com" target="_blank">r89647@gmail.com</a>
+        </p>
+        <p>
+          GitHub:
+          <a href="https://github.com/wingedseraph" target="_blank">wingedseraph</a>
+        </p>
 
-      <h2>About me</h2>
-      <div class="divider"></div>
+        <h2 id="About-me">About me</h2>
+        <div class="divider"></div>
 
-      <p>
-I am an aspiring frontend developer currently focused on mastering HTML and CSS. Passionate about web design and development, I am dedicated to learning and applying best practices to create responsive and visually appealing websites. My goal is to build a solid foundation in frontend technologies, with an eye toward continuous improvement and growth in this dynamic field. As I expand my skill set, I am eager to take on new challenges, collaborate with experienced developers, and contribute to projects that enhance user experience and accessibility.      </p>
-      <h2>Skills</h2>
-      <div class="divider"></div>
+        <p>
+          I am an aspiring frontend developer currently focused on mastering HTML and CSS. Passionate about web design and development, I am dedicated to learning and applying best practices to create responsive and visually appealing websites. My goal is to build a solid foundation in frontend
+          technologies, with an eye toward continuous improvement and growth in this dynamic field. As I expand my skill set, I am eager to take on new challenges, collaborate with experienced developers, and contribute to projects that enhance user experience and accessibility.
+        </p>
+        <h2 id="Skills">Skills</h2>
+        <div class="divider"></div>
 
-      <ul>
-        <li>HTML</li>
-        <li>CSS (basic knowledge)</li>
-        <li>JavaScript (basic knowledge)</li>
-        <li>Version control: Git (remote service GitHub)</li>
-        <li>Other Languages: C++ (basic knowledge), Python (basic knowledge)</li>
-        <li>OS: Linux, MacOS, Windows </li>
-        <li>Editors: Neovim, VSCode</li>
-      </ul>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Version control: Git (remote service GitHub)</li>
+          <li>Other Languages: C++ (basic knowledge), Python (basic knowledge)</li>
+          <li>OS: Linux, MacOS, Windows</li>
+          <li>Editors: Neovim, VSCode</li>
+        </ul>
 
-      <h2>Code Example</h2>
-      <div class="divider"></div>
+        <h2 id="Code-Examples">Code Example</h2>
+        <div class="divider"></div>
 
-      <div class="code-container">
-        <pre><code class="language-javascript">
-// Use single quotes for string literals
-const greeting = "Hello, world";
+        <div class="code-container">
+          <pre><code class="language-javascript">
+    // Use single quotes for string literals
+    const greeting = "Hello, world";
 
-// Use camel case for variable and function names
-function sayHello(name) {
-  console.log(greeting + " " + name);
-}
+    // Use camel case for variable and function names
+    function sayHello(name) {
+      console.log(greeting + " " + name);
+    }
 
-// Use const or let for variable declarations instead of var
-const names = ["Alice", "Bob", "Charlie"];
+    // Use const or let for variable declarations instead of var
+    const names = ["Alice", "Bob", "Charlie"];
 
-// Use template literals for string interpolation
-const num1 = 10;
-const num2 = 5;
-console.log(`The sum of ${num1} and ${num2} is ${num1 + num2}`);
+    // Use template literals for string interpolation
+    const num1 = 10;
+    const num2 = 5;
+    console.log(`The sum of ${num1} and ${num2} is ${num1 + num2}`);
     </code></pre>
+        </div>
+        <h2 id="Courses">Courses</h2>
+        <div class="divider"></div>
+
+        <ul>
+          <li>Small training projects at university in C++ and Python</li>
+          <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+        </ul>
+        <h2 id="Education">Education</h2>
+        <div class="divider"></div>
+
+        <ul>
+          <li>Currently pursuing a degree in Applied Computer Science</li>
+        </ul>
+        <h2 id="Languages">Languages</h2>
+        <div class="divider"></div>
+
+        <ul>
+          <li>Russian - native</li>
+          <li>English - B1</li>
+        </ul>
       </div>
-      <h2>Courses</h2>
-      <div class="divider"></div>
-
-      <ul>
-        <li>Small training projects at university in C++ and Python</li>
-        <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
-      </ul>
-      <h2>Education</h2>
-      <div class="divider"></div>
-
-      <ul>
-        <li>Currently pursuing a degree in Applied Computer Science</li>
-      </ul>
-      <h2>Languages</h2>
-      <div class="divider"></div>
-
-      <ul>
-        <li>Russian - native</li>
-        <li>English - B1</li>
-      </ul>
-    </div>
+    </main>
   </body>
+  <footer class="footer-container">
+    <a target="_blank" href="https://github.com/wingedseraph"><img src="images/github-mark.png" alt="logo of github.com" class="github-logo"></a>
+    <p>2024</p>
+    <!--<a class="rs-logo" href="https://rs.school/courses/javascript-preschool-ru">rs logo</a>-->
+    <a target="_blank" href="https://rs.school/courses/javascript-preschool-ru"><img src="images/rs_logo.png" alt="logo of rs school" class="rs-logo"></a>
+  </footer>
 </html>

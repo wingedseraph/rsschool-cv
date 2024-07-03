@@ -1,0 +1,88 @@
+body {
+  font-family: Inter;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: grey;
+}
+header {
+  width: 100%;
+  margin: 0 auto;
+}
+header>*{
+    width: 58%;
+  margin:0 auto;
+
+}
+.header-container {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding: 10% 20% 0;
+  font-size: 1.3em;
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  margin: 10px 0;
+}
+
+.code-container {
+  background-color: #aed9e0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 20px;
+  overflow: auto;
+}
+.avatar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items:center;
+}
+h1 {
+  display: inline;
+  text-align: center;
+  margin: 8px;
+  font-size: 50px;
+}
+.image-avatar {
+  width: 200px;
+  height: 200px;
+}
+h2,
+p {
+  margin: 8px;
+  font-size: 1.3em;
+}
+
+footer {
+  margin: 0 auto;
+  width: 100%;
+}
+.footer-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  align-items: center;
+  font-size: 0.7rem;
+}
+.rs-logo,
+.github-logo {
+  width: 60px;
+  height: 60px;
+}
+
